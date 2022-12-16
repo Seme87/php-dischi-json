@@ -32,26 +32,23 @@ img{
     max-width: 1200px;
 }
 
-header{
-    padding-left: 150px;
-    height: 100px;
-    background-color: black;
-}
-
-main{
-    height:calc(100vh - 100px);
-    background-color:#1d2d3c;
-}
 
 /*-----------------
         COMMON
 ------------------*/
 
 
+
+
 /*-----------------
         HEADER
 ------------------*/
 
+header{
+    padding-left: 150px;
+    height: 100px;
+    background-color: black;
+}
 
 .logo img{
     width: 60px;
@@ -66,6 +63,13 @@ main{
 /*-----------------
         MAIN
 ------------------*/
+main{
+    height:calc(100vh - 100px);
+    background-color:#1d2d3c;
+}
+
+
+
 .row{
     padding-top: 20px;
     padding-bottom: 50px;
@@ -79,9 +83,9 @@ main{
     margin: 30px 50px;
     background-color: #112030;
     padding: 35px;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 30px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .text{
@@ -93,3 +97,7 @@ main{
 .text h4 {
     margin: 10px 0;
 }
+
+/*-----------------
+        MAIN
+------------------*/
