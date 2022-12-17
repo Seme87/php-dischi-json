@@ -79,6 +79,7 @@ main{
 
 
 .col{
+    position: relative;
     width:calc(100% / 3 - 100px ) ;
     margin: 30px 50px;
     background-color: #112030;
@@ -86,16 +87,52 @@ main{
     padding-top: 15px;
     padding-bottom: 30px;
     border-radius: 8px;
+    transition: 0.3s;
+   
+}
+
+.image img{
+    transition: 0.6s ease-in-out;
+    opacity: 0.6;
+    
+}
+
+.player{
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: -40px;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 50px;
 }
 
 .text{
     margin-top: 10px;
     text-align: center;
     color: white;
+
+}
+
+.image{
+    
+    overflow: hidden;
 }
 
 .text h4 {
     margin: 10px 0;
+}
+
+.col:hover img{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.col:hover .player{
+    display: flex;
 }
 
 /*-----------------
