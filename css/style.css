@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;  
+}
+
 /*-----------------
         COMMON
 ------------------*/
@@ -46,13 +50,13 @@ img{
 
 header{
     padding-left: 150px;
-    height: 100px;
+    height: 80px;
     background-color: black;
 }
 
 .logo img{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 
 /*-----------------
@@ -64,7 +68,7 @@ header{
         MAIN
 ------------------*/
 main{
-    height:calc(100vh - 100px);
+    height:calc(100vh - 80px);
     background-color:#1d2d3c;
 }
 
